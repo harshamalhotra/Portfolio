@@ -21,7 +21,7 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 320px){
   }
 
   .btn-group-sm>.btn, .btn-sm {
-    padding: 2px 95px;
+    padding: 3px 60px;
     font-size: 11px;
     line-height: 1.5;
     border-radius: 100px;
@@ -79,10 +79,35 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 320px){
   text-align: center;
 }
 
+.lets-talk{
+  position: relative;
+  top:185px;
+  height: 80px;
+}
+.talk-title{
+  top:10px;
+  font-size:14px;
+  letter-spacing: 0.81px;
+}
+.social-icon{
+  height: 10px;
+  width: auto;
+}
+.footer{
+top:190px;
+}
+.icons{
+  text-align: center;
+}
+.copyright{
+  margin-top: 10px;
+  font-size:10px;
+  
+}
 }
 
 
-} 
+
 
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2)      and (min-width: 375px),
@@ -251,6 +276,9 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 425px){
 .row-image{
   text-align: center;
 }
+.social-icon{
+  margin-left: 15px;
+}
 
 }
 
@@ -358,9 +386,32 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 768px){
     margin-right: 0px;
     margin-left: 0px;
 }
+.lets-talk{
+  position: relative;
+  top:-10px;
+  height: 104px;
+}
+.talk-title{
+  top:20px;
+  font-size:14px;
+  letter-spacing: 0.81px;
+}
+.contactme .btn{
+  top:35px;
+}
 
+.footer{
+top:10px;
+}
 
-
+.copyright{
+  margin-top: 10px;
+  font-size:12px;
+  
+}
+.social-icon{
+  margin-left: 10px;
+}
 
 
 
@@ -391,7 +442,7 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 1024px)
     font-size:100%;
   } 
   .hero-image{
-    height:300px;
+    height:400px;
   }
    .navbar{
   margin-bottom: 0px;
@@ -488,6 +539,34 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 1024px)
   padding-right: 10px;
 }
 
+.lets-talk{
+  position: relative;
+  top:-10px;
+  height: 120px;
+}
+.talk-title{
+  top:20px;
+  font-size:16px;
+  letter-spacing: 0.81px;
+}
+.contactme .btn{
+  top:35px;
+
+}
+.social-icon{
+  height: 20px;
+  width: auto;
+  margin-left: 10px;
+}
+.footer{
+top:20px;
+}
+
+.copyright{
+  margin-top: 0px;
+  font-size:14px;
+  
+}
 
 }
 
@@ -523,10 +602,11 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 1440px)
   font-size: 16px;
 }
 .hero-image{
-    height:400px;
+    height:470px;
   }
   .hero-text{
     margin-top: 20px;
+    text-align: center;
   }
    .btn-group-sm>.btn, .btn-sm {
     padding: 5px 105px;
@@ -581,6 +661,31 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 1440px)
 .project-text{
   min-height: 400px;
 }
+.lets-talk{
+  position: relative;
+  top:-10px;
+  height: 140px;
+}
+.talk-title{
+  top:30px;
+  font-size:24px;
+  letter-spacing: 0.81px;
+}
+.contactme .btn{
+  top:35px;
+  
+}
+.footer{
+  top:20px;
 
+}
+.social-icon{
+  height: 30px;
+  width: auto;
+  margin-right: 30px;
+}
+.copyright{
+  font-size: 16px;
+}
 
   }

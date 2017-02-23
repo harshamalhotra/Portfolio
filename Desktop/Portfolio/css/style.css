@@ -61,6 +61,7 @@ width:20px;
   margin-top: 15px;
   z-index: 3;
   position: relative;
+  text-align: center;
   
   
 }
@@ -70,7 +71,7 @@ width:20px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  
+  background-attachment: fixed;
   width:100%;
   height:150px;
   
@@ -179,6 +180,42 @@ width:20px;
 .nomnom-project .project-text{
   background-color: #F2F2F2;
 }
+
+.lets-talk{
+  background-color: #F2F2F2;
+}
+
+.talk-title{
+  /* Let’s talk: */
+  text-align: center;
+font-family: Raleway-SemiBold;
+
+color: #000000;
+letter-spacing: 0.81px;
+}
+.contactme .btn{
+  background-color: #006A94;
+  border:#006A94;
+  color:#FFF;
+}
+.contactme{
+  text-align: center;
+}
+
+.footer{
+  position: relative;
+
+}
+
+.copyright{
+  font-color:#000;
+  font-family: cabin;
+  text-align: center;
+}
+.icons{
+  text-align: center;
+}
+
 
 
 
