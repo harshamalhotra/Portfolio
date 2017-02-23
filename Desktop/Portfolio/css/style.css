@@ -40,13 +40,10 @@ width:20px;
   
 }
 .header-items{
+
   float: right;
   right:10px;
-}
-.nav-item{
   font-family: cabin;
-
-
 }
 .navbar-default .navbar-nav>li>a {
     color: #000;
@@ -92,6 +89,7 @@ width:20px;
 .name{
   font-size:14px;
   color:#D1D1D1;
+  z-index:3;
 }
 
 .job-title{
@@ -129,5 +127,56 @@ width:20px;
     position: relative;
     top: 10px;
 }
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+    color: #FFF;
+    background-color: #000;
+}
+
+
+
+.project-text{
+  background-color: #FFF;
+
+  
+
+}
+.project-image{
+  background-color: #FFF;
+
+
+}
+.project-title{
+  text-align: center;
+  font-family: Raleway-Bold;
+   color: #4A4A4A;
+}
+
+.project-about{
+   font-family: Cabin-Regular;
+    color: #000000;
+
+}
+
+.see-more{
+  text-align: center;
+  }
+
+.see-more .btn{
+  background-color: #006A94;
+  font-family: Cabin-Bold;
+  color:#FFF;
+ }
+
+.project-image .row{
+  text-align: center;
+  
+
+}
+
+
+
+
+
+
 
 
