@@ -5,43 +5,73 @@ only screen and (     -o-min-device-pixel-ratio: 2/1)    and (min-width: 320px),
 only screen and (        min-device-pixel-ratio: 2)      and (min-width: 320px),
 only screen and (                min-resolution: 192dpi) and (min-width: 320px),
 only screen and (                min-resolution: 2dppx)  and (min-width: 320px){
+
+  .logo{
+    
+    left:15px;
+    max-height: 25px;
+  }
+  .navbar-default .navbar-nav>li>a {
+    
+    right:0px;
+    
+    width: 100%;
+    display: block;
+    
+   
+}
+    .navbar-nav {
+    margin: 38.5px -15px;
+}
+.navbar-collapse{
+  width:100%;
+  height: 200px;
+  top:0px;
+}
+.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+    color: #000;
+    
+    background-color: #FFF;
+}
+.hero{
+  height: 170px;
+}
+.hero-stuff{
   
-  .name{
-    font-size:125%;
-  }
-  .job-title{
-    font-size:100%;
-  }
-  .tagline{
-  font-size:100%;
-  }
-
-  .hero-image{
-    height:200px;
-  }
-
-  .btn-group-sm>.btn, .btn-sm {
-    padding: 3px 60px;
-    font-size: 11px;
-    line-height: 1.5;
-    border-radius: 100px;
-    position: relative;
-    top: 20px;
+  top:20px;
+}
+.getintouch{
+  top:25px;
+}
+.name{
+  font-size:16px;
+}
+.job-title{
+  font-size:13px;
+}
+.tagline{
+  font-size:11px;
+}
+.tagline1{
+  top:10px;
+}
+.tagline2{
+  top:10px;
 }
 .project-stuff{
   position: relative;
-  top:188px;
+  top:190px;
   height: 190px;
 
 }
 .project-title{
-  margin-top: 10px;
+  
   text-align: center;
   font-size:14px;
   letter-spacing: 0.4px;
 }
 .project-about{
-  margin-top: 10px;
+  
   margin-right: 20px;
   margin-left: 20px;
 
@@ -50,64 +80,57 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 320px){
   line-height: 20px;
 
 }
-.see-more{
-  top:-20px;
-  margin-left: 25px;
-}
-.see-more .btn{
-  font-size:11px;
-  color:#FFF;
-  letter-spacing: 0.41px;
-  padding: 4px 75px;
 
+.see-more .btn{
+  top:0px;
+  
+  font-size:11px;
+  
+  letter-spacing: 0.41px;
+  padding: 4px 16px;
+  
 }
 .actual-image{
   height: 150px;
   width: auto;
-  margin-top: 20px;
- 
-}
-.container-fluid{
-  padding-left: 0px;
-  padding-right: 0px;
-}
-.row {
-    margin-right: 0px;
-    margin-left: 0px;
-}
-.row-image{
+  margin-top: 0px;
   text-align: center;
+ }
+.project-text{
+  top:170px;
 }
 
-.lets-talk{
-  position: relative;
-  top:185px;
-  height: 80px;
+.nomnom{
+  top:-27px;
+}
+.baksa{
+  top:-75px;
 }
 .talk-title{
+  font-size:13px;
+  margin-top: 15px;
+}
+.lets-talk{
+  height: 90px;
+  margin-top:60px;
+}
+.contact-me{
   top:10px;
-  font-size:14px;
-  letter-spacing: 0.81px;
 }
 .social-icon{
-  height: 10px;
-  width: auto;
+  height: 14px;
+  margin-right: 10px;
 }
 .footer{
-top:190px;
-}
-.icons{
-  text-align: center;
+  margin-top:15px;
 }
 .copyright{
   margin-top: 10px;
-  font-size:10px;
-  
-}
+  font-size:12px;
 }
 
-
-
+ 
+}
 
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2)      and (min-width: 375px),
@@ -116,43 +139,76 @@ only screen and (     -o-min-device-pixel-ratio: 2/1)    and (min-width: 375px),
 only screen and (        min-device-pixel-ratio: 2)      and (min-width: 375px),
 only screen and (                min-resolution: 192dpi) and (min-width: 375px),
 only screen and (                min-resolution: 2dppx)  and (min-width: 375px){
+
+
+
+  .logo{
+    
+    left:25px;
+    max-height: 35px;
+  }
+   .navbar-right{
+    margin-right: 0px;
+  }
+  .navbar-default .navbar-collapse .nav .nav-item>a, .navbar-default .navbar-collapse .nav .nav-item>a:focus, .navbar-default .navbar-collapse .nav .nav-item>a:hover {
+    color: #000;
+    background-color: #FFF;
+    top:-50px;
+    
+}
+.navbar-right .dropdown-menu {
+    right: 0;
+    left: auto;
+    top: 5px;
+}
+.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+    color: #000;
+    
+    background-color: #FFF;
+}
+.hero{
+  height: 170px;
+
+}
+.hero-content{
+  top:50px;
+}
+.hero-stuff{
   
-  .name{
-    font-size:125%;
-  }
-  .job-title{
-    font-size:100%;
-  }
-  .tagline{
-  font-size:100%;
-  }
-
-  .hero-image{
-    height:200px;
-  }
-
-  .btn-group-sm>.btn, .btn-sm {
-    padding: 2px 95px;
-    font-size: 11px;
-    line-height: 1.5;
-    border-radius: 100px;
-    position: relative;
-    top: 20px;
+  top:20px;
+}
+.getintouch{
+  top:25px;
+}
+.name{
+  font-size:16px;
+}
+.job-title{
+  font-size:13px;
+}
+.tagline{
+  font-size:11px;
+}
+.tagline1{
+  top:10px;
+}
+.tagline2{
+  top:10px;
 }
 .project-stuff{
   position: relative;
-  top:188px;
-  height: 190px;
+  top:200px;
+  height: 185px;
 
 }
 .project-title{
-  margin-top: 20px;
+  margin-top: 10px;
   text-align: center;
   font-size:14px;
   letter-spacing: 0.4px;
 }
 .project-about{
-  margin-top: 0px;
+  margin-top: 10px;
   margin-right: 20px;
   margin-left: 20px;
 
@@ -161,39 +217,38 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 375px){
   line-height: 20px;
 
 }
-.see-more{
-  top:-10px;
-  margin-left: 25px;
-}
-.see-more .btn{
-  font-size:11px;
-  color:#FFF;
-  letter-spacing: 0.41px;
-  padding: 4px 75px;
 
+.see-more .btn{
+  top:0px;
+  
+  font-size:11px;
+  
+  letter-spacing: 0.41px;
+  padding: 4px 16px;
+  
 }
 .actual-image{
-  height: 130px;
+  height: 150px;
   width: auto;
-  margin-top: 30px;
+  margin-top: 0px;
+  text-align: center;
+ }
+ .project-text{
+  top:170px;
+}
+.contact-me{
+  top:20px;
+}
+.lets-talk{
+  height: 110px;
+  margin-top:70px;
+}
+
+
+
  
 }
-.container-fluid{
-  padding-left: 0px;
-  padding-right: 0px;
-}
-.row {
-    margin-right: 0px;
-    margin-left: 0px;
-}
-.row-image{
-  text-align: center;
-}
 
-}
-
-
-} 
 
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2)      and (min-width: 425px),
@@ -202,86 +257,128 @@ only screen and (     -o-min-device-pixel-ratio: 2/1)    and (min-width: 425px),
 only screen and (        min-device-pixel-ratio: 2)      and (min-width: 425px),
 only screen and (                min-resolution: 192dpi) and (min-width: 425px),
 only screen and (                min-resolution: 2dppx)  and (min-width: 425px){
-  .name{
-   font-size:150%;
+
+
+
+
+  .logo{
+    left:45px;
+
   }
-  .job-title{
-    font-size:125%;
+  .navbar-right{
+    margin-right: 0px;
   }
-  .tagline{
-  font-size:85%;
-} 
-  .hero-image{
-    height:200px;
+   .navbar-default .navbar-collapse .nav .nav-item>a, .navbar-default .navbar-collapse .nav .nav-item>a:focus, .navbar-default .navbar-collapse .nav .nav-item>a:hover {
+    color: #000;
+    background-color: #FFF;
+    font-size:16px;
+
+
   }
-  .navbar{
-  margin-bottom: 0px;
-  min-height: 40px;
+  .navbar-right .dropdown-menu {
+    right: 0;
+    left: auto;
+    top: 0px;
 }
- .btn-group-sm>.btn, .btn-sm {
-    padding: 2px 75px;
-    font-size: 11px;
-    line-height: 1.5;
-    border-radius: 100px;
-    position: relative;
-    top: 20px;
+.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+    color: #FFF;
+    
+    background-color: #000;
+}
+.navbar-collapse{
+  top:-10px;
+}
+.navbar-default .navbar-collapse .nav .nav-item>a, .navbar-default .navbar-collapse .nav .nav-item>a:focus, .navbar-default .navbar-collapse .nav .nav-item>a:hover {
+    color: #000;
+    background-color: #FFF;
+    top: -41px;
+}
+.hero{
+  top:50px;
+  height: 180px;
+}
+.hero-stuff{
+  
+  top:30px;
+}
+.getintouch{
+  top:25px;
+}
+.name{
+  font-size:16px;
+}
+.job-title{
+  font-size:13px;
+}
+.tagline{
+  font-size:11px;
+}
+.tagline1{
+  top:10px;
+}
+.tagline2{
+  top:10px;
+}
+.project{
+  top:20px;
 }
 .project-stuff{
   position: relative;
-  top:188px;
-  height: 200px;
+  top:200px;
+  height: 160px;
+
 
 }
 .project-title{
-  margin-top: 20px;
+ 
   text-align: center;
   font-size:14px;
-  letter-spacing: 0.54px;
+  letter-spacing: 0.4px;
 }
 .project-about{
-  margin-top: 0px;
+  margin-top: 10px;
   margin-right: 20px;
   margin-left: 20px;
 
   font-size: 12px;
   
-  line-height: 30px;
+  line-height: 20px;
 
 }
-.see-more{
-  top:-15px;
-  margin-left: 25px;
-}
+
 .see-more .btn{
-  font-size:12px;
-  color:#FFF;
+  top:0px;
+  
+  font-size:11px;
+  
   letter-spacing: 0.41px;
-  padding: 5px 75px;
-
+  padding: 4px 16px;
+  
 }
 .actual-image{
   height: 150px;
   width: auto;
-  margin-top: 20px;
+  }
+  .lets-talk{
+    top:140px;
+    height: 96px;
+  }
+
+  .social-icon{
+  height: 16px;
+  
+}
+.footer{
+  margin-top:168px;
+}
+.copyright{
+  margin-top: 10px;
+  font-size:14px;
+}
+
+
  
 }
-.container-fluid{
-  padding-left: 0px;
-  padding-right: 0px;
-}
-.row {
-    margin-right: 0px;
-    margin-left: 0px;
-}
-.row-image{
-  text-align: center;
-}
-.social-icon{
-  margin-left: 15px;
-}
-
-}
-
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2)      and (min-width: 768px),
 only screen and (   min--moz-device-pixel-ratio: 2)      and (min-width: 768px),
@@ -289,134 +386,131 @@ only screen and (     -o-min-device-pixel-ratio: 2/1)    and (min-width: 768px),
 only screen and (        min-device-pixel-ratio: 2)      and (min-width: 768px),
 only screen and (                min-resolution: 192dpi) and (min-width: 768px),
 only screen and (                min-resolution: 2dppx)  and (min-width: 768px){
-  
-  .hero{
-    position:relative;
-    top:-10px;
-  }
-  .hero-content{
-    position:relative;
-    top:20px;
-  }
-  .logo-image{
-    top:20px;
-    left: 30px;
-    max-height: 30px;
+
+
+
+
+  .logo{
+    left:45px;
+
   }
   .navbar-right{
-    margin-right: 10px;
+    margin-right: 0px;
   }
-  .name{
-   font-size: 175%;
+   .navbar-default .navbar-collapse .nav .nav-item>a, .navbar-default .navbar-collapse .nav .nav-item>a:focus, .navbar-default .navbar-collapse .nav .nav-item>a:hover {
+    color: #000;
+    background-color: #FFF;
+    font-size:16px;
+
+
   }
-  .job-title{
-    font-size:125%;
-  }
-  .tagline{
-  font-size:100%;
-} 
- .hero-image{
-    height:235px;
-  }
+  .navbar-right .dropdown-menu {
+    right: 0;
+    left: auto;
+    top: 0px;
+}
+.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+    color: #FFF;
+    
+    background-color: #000;
+}
+.navbar-collapse{
+  top:-10px;
+}
+.navbar-default .navbar-collapse .nav .nav-item>a, .navbar-default .navbar-collapse .nav .nav-item>a:focus, .navbar-default .navbar-collapse .nav .nav-item>a:hover {
+    color: #000;
+    background-color: #FFF;
+    top: -31px;
+}
+.hero{
+  top:50px;
+  height: 250px;
+  background-attachment: fixed;
+}
+.hero-stuff{
   
-  .navbar{
-  margin-bottom: 0px;
-  min-height: 60px;
+  top:55px;
 }
-.header-items{
-  float: right;
-  right:20px;
-  margin-top: 10px;
+.getintouch{
+  top:40px;
+  font-size:13px;
 }
- .btn-group-sm>.btn, .btn-sm {
-    padding: 5px 90px;
-    font-size: 12px;
-    line-height: 1.5;
-    border-radius: 100px;
-    position: relative;
-    top: 20px;
+.name{
+  font-size:20px;
+}
+.job-title{
+  font-size:16px;
+}
+.tagline{
+  font-size:12px;
 }
 
-.project-stuff{
-  position: relative;
-  top:-15px;
-  height: 300px;
-
+.btn-group-sm>.btn, .btn-sm {
+    padding: 5px 65px;
+    font-size: 13px;
+    
+    
 }
-.project-title{
-  margin-top: 45px;
-  margin-left: 20px;
-  font-size:14px;
-  letter-spacing: 0.54px;
+
+.project{
+  top:120px;
+}
+.project-image{
+  
+  text-align: center;
 }
 .project-about{
-  margin-top: 0px;
-  margin-right: 20px;
-  margin-left: 80px;
-
-  font-size: 13px;
-  
+  margin-left: 50px;
+  font-size: 14px;
   line-height: 30px;
-
+ 
 }
-.see-more{
-  top:-15px;
-  margin-left: 25px;
+.project-title{
+  font-size: 16px;
 }
-.see-more .btn{
-  font-size:14px;
-  color:#FFF;
-  letter-spacing: 0.41px;
-  padding: 5px 75px;
-
+.project-text{
+  text-align: left;
+   
 }
 .actual-image{
+  margin-top: 10px;
   height: 200px;
-  width: auto;
-  margin-top: 70px;
-  margin-right: 60px;
-  padding-left: 50px;
-  padding-right: 10px;
 }
-.container-fluid{
-  padding-left: 0px;
-  padding-right: 0px;
+.see-more .btn {
+    top: 0px;
+    font-size: 13px;
+    letter-spacing: 0.41px;
+    padding: 4px 40px;
 }
-.row {
-    margin-right: 0px;
-    margin-left: 0px;
+.project-stuff{
+  top:160px;
 }
-.lets-talk{
-  position: relative;
-  top:-10px;
-  height: 104px;
+.nomnom{
+  top:250px;
 }
-.talk-title{
-  top:20px;
-  font-size:14px;
-  letter-spacing: 0.81px;
+.baksa{
+  top:370px;
 }
-.contactme .btn{
-  top:35px;
+.baksa-image{
+  margin-top:30px;
 }
+ .lets-talk{
+    top:560px;
+    height: 130px;
+  }
+  .talk-title{
+    font-size:16px;
+    margin-top: 30px;
+  }
 
-.footer{
-top:10px;
+  .footer{
+  margin-top:589px;
 }
-
 .copyright{
   margin-top: 10px;
-  font-size:12px;
-  
+  font-size:16px;
 }
-.social-icon{
-  margin-left: 10px;
 }
-
-
-
-}  
-
 
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2)      and (min-width: 1024px),
@@ -425,150 +519,126 @@ only screen and (     -o-min-device-pixel-ratio: 2/1)    and (min-width: 1024px)
 only screen and (        min-device-pixel-ratio: 2)      and (min-width: 1024px),
 only screen and (                min-resolution: 192dpi) and (min-width: 1024px),
 only screen and (                min-resolution: 2dppx)  and (min-width: 1024px){
-  .hero-content{
-  margin-top: 40px;
-  position: absolute;
-  z-index: 4;
-  left:400px;
-}
-  .name{
-    font-size:200%;
-    
+  .logo{
+    max-height: 50px;
+    left:140px;
   }
-  .job-title{
-    font-size:150%;
-  }
-  .tagline{
-    font-size:100%;
-  } 
-  .hero-image{
-    height:400px;
-  }
-   .navbar{
-  margin-bottom: 0px;
-  min-height: 50px;
+  .navbar-right {
+  
+    margin-right: 100px;
 }
-.header-items{
-  float: right;
-  right:30px;
-  margin-top: 10px;
-
-}
-.navbar-right {
-    margin-right: 130px;
-}
-.hero {
-    position: relative;
-    top: 10px;
-}
-
- .btn-group-sm>.btn, .btn-sm {
-    padding: 5px 85px;
-    font-size: 16px;
-    line-height: 1.5;
-    border-radius: 100px;
-    position: relative;
-    top: 20px;
-}
-.navbar-default .navbar-nav>li>a {
+ .navbar-default .navbar-collapse .nav .nav-item>a, .navbar-default .navbar-collapse .nav .nav-item>a:focus, .navbar-default .navbar-collapse .nav .nav-item>a:hover {
     color: #000;
-    font-size: 16px;
+    background-color: #FFF;
+    font-size: 20px;
+    
 }
-.logo-image {
-    top: 20px;
-    left: 130px;
-    max-height: 30px;
-}
-
-.dropdown-menu>li>a {
-    display: block;
-    padding: 10px 20px;
-    clear: both;
-    font-weight: 400;
-    line-height: 1.42857143;
-    color: #FFF;
-    font-size:16px;
-
-}
-.navbar-right .dropdown-menu {
+  .navbar-right .dropdown-menu {
     right: 0;
     left: auto;
-    background-color: black;
-    position: relative;
-    z-index: 5;
+    top: 10px;
+    font-size:20px;
+}
+.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+    color: #000;
+  
+    background-color: #FFF;
+}
+.navbar-collapse{
+  top:15px;
+}
+.navbar-nav{
+  margin-top: 20px;
+  margin-bottom: 0px;
+
+}
+.hero{
+  top:70px;
+  height: 350px;
+  background-attachment: fixed;
+}
+.hero-stuff{
+  
+  top:80px;
+}
+.getintouch{
+  top:40px;
+  font-size:13px;
+}
+.name{
+  font-size:24px;
+}
+.job-title{
+  font-size:20px;
+}
+.tagline{
+  font-size:16px;
+}
+
+.btn-group-sm>.btn, .btn-sm {
+    padding: 5px 97px;
+    font-size: 13px;
+    
     
 }
-.project-stuff{
-  position: relative;
-  margin-top: 10px;
-  height: 350px;
+.actual-image{
+  margin-left: 100px;
+  height: 250px;
 
 }
-.project-title{
-  margin-top: 65px;
-  margin-left: 25px;
+.little-hope{
+  top:250px;
+
+}
+.project-title {
+    font-size: 18px;
+    margin-left: 0px;
+}
+.project .row .project-about>p{
   font-size:16px;
-  letter-spacing: 0.54px;
-}
-.project-about{
-  margin-top: 20px;
-  margin-right: 0px;
-  margin-left: 120px;
-
-  font-size: 14px;
+  margin-left: 0px;
+  line-height: 40px;
   
-  line-height: 35px;
-
+}
+.see-more .btn {
+    top: 0px;
+    font-size: 13px;
+    letter-spacing: 0.41px;
+    padding: 4px 53px;
+    margin-left: 0px;
+}
+.nomnom{
+  top:420px;
 }
 .see-more{
-  
-  margin-left: 25px;
-}
-.see-more .btn{
-  font-size:16px;
-  color:#FFF;
-  letter-spacing: 0.41px;
-  padding: 5px 98px;
-}
-.actual-image{
-  height: 250px;
-  width: auto;
-  margin-top: 50px;
-  margin-right: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
-.lets-talk{
-  position: relative;
-  top:-10px;
-  height: 120px;
-}
-.talk-title{
   top:20px;
-  font-size:16px;
-  letter-spacing: 0.81px;
 }
-.contactme .btn{
-  top:35px;
-
+.baksa{
+  top:600px;
 }
-.social-icon{
-  height: 20px;
-  width: auto;
-  margin-left: 10px;
+.project-text{
+  top:166px;
 }
-.footer{
-top:20px;
+ .lets-talk{
+    top:850px;
+    height: 130px;
+  }
+  .talk-title{
+    font-size:18px;
+    margin-top: 30px;
+  }
+    .footer{
+  margin-top:877px;
 }
-
 .copyright{
   margin-top: 0px;
-  font-size:14px;
-  
+}
+.social-icon{
+  height:16px;
+  margin-right: 15px;
+}
 }
 
-}
 
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2)      and (min-width: 1440px),
@@ -577,115 +647,119 @@ only screen and (     -o-min-device-pixel-ratio: 2/1)    and (min-width: 1440px)
 only screen and (        min-device-pixel-ratio: 2)      and (min-width: 1440px),
 only screen and (                min-resolution: 192dpi) and (min-width: 1440px),
 only screen and (                min-resolution: 2dppx)  and (min-width: 1440px){
-  .hero-content{
-  margin-top: 20px;
-  margin-top: 40px;
-    position: absolute;
-    z-index: 4;
-    left: 600px;
 
+  .logo{
+    max-height: 50px;
+    left:140px;
+  }
+  .navbar-right {
+  
+    margin-right: 100px;
 }
-  .name{
-   font-size:225%;
-  }
-  .job-title{
-    font-size:175%;
-    margin-top: -10px;
-  }
-  .tagline{
-  font-size:120%;
-} 
-.hero .tagline2{
-  margin-top: 10px;
+ .navbar-default .navbar-collapse .nav .nav-item>a, .navbar-default .navbar-collapse .nav .nav-item>a:focus, .navbar-default .navbar-collapse .nav .nav-item>a:hover {
+    color: #000;
+    background-color: #FFF;
+    font-size: 20px;
+    
 }
-.nav-item{
-  font-size: 16px;
+  .navbar-right .dropdown-menu {
+    right: 0;
+    left: auto;
+    top: 10px;
+    font-size:20px;
 }
-.hero-image{
-    height:470px;
-  }
-  .hero-text{
-    margin-top: 20px;
-    text-align: center;
-  }
-   .btn-group-sm>.btn, .btn-sm {
-    padding: 5px 105px;
-    font-size: 16px;
-    line-height: 1.5;
-    border-radius: 100px;
-    position: relative;
-    top: 30px;
+.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+    color: #000;
+  
+    background-color: #FFF;
+}
+.navbar-collapse{
+  top:15px;
+}
+.hero{
+  top:70px;
+  height: 500px;
+  background-attachment: fixed;
+}
+.hero-stuff{
+  
+  top:110px;
+}
+.getintouch{
+  top:40px;
+  font-size:13px;
+}
+.name{
+  font-size:50px;
+}
+.job-title{
+  font-size:30px;
+}
+.tagline{
+  font-size:24px;
 }
 
+.btn-group-sm>.btn, .btn-sm {
+    padding: 5px 140px;
+    font-size: 20px;
+}
+.project-title {
+    font-size: 24px;
+    margin-left: -20px;
+}
 .actual-image {
-    height: 300px;
-    width: auto;
-    margin-top: 50px;
-    margin-right: 0px;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-bottom: 20px;
+    margin-left: 137px;
+    height: 350px
 }
-.project-title{
-  margin-top: 60px;
-  margin-left: 40px;
-  font-size:24px;
-  letter-spacing: 0.54px;
+.project-stuff{
+  top:325px;
 }
-.project-about{
-  margin-top: 30px;
-  margin-right: 50px;
-  margin-left: 140px;
-
-  font-size: 16px;
-  
-  line-height: 40px;
-
+.project .row .project-about>p {
+    font-size: 20px;
+    margin-left: 0px;
+    line-height: 50px;
+    margin-top: 20px;
 }
-
+.see-more .btn {
+   
+    font-size: 16px;
+    letter-spacing: 0.41px;
+    padding: 10px 86px;
+    margin-left: 0px;
+}
 .see-more{
-  
-  margin-left: 10px;
+  top:40px;
+  left: -30px;
 }
-.see-more .btn{
-  font-size:20px;
-  color:#FFF;
-  letter-spacing: 0.41px;
-  padding: 5px 180px;
+.nomnom{
+  top:534px;
 }
-.project-image{
-  min-height: 400px;
+.baksa{
+  top:822px;
+}
+ .lets-talk{
+    top:1350px;
+    height: 170px;
+  }
+  .talk-title{
+    font-size:24px;
+    margin-top: 30px;
+  }
+  .contact-me .btn{
+    margin-top:15px;
+  }
 
-
-}
-.project-text{
-  min-height: 400px;
-}
-.lets-talk{
-  position: relative;
-  top:-10px;
-  height: 140px;
-}
-.talk-title{
-  top:30px;
-  font-size:24px;
-  letter-spacing: 0.81px;
-}
-.contactme .btn{
-  top:35px;
-  
-}
-.footer{
-  top:20px;
-
-}
-.social-icon{
-  height: 30px;
-  width: auto;
-  margin-right: 30px;
+     .footer{
+  margin-top:1380px;
 }
 .copyright{
-  font-size: 16px;
+  font-size:18px;
+}
+.social-icon{
+  height:24px;
+  margin-right: 20px;
 }
 
-  }
+
+
+}
