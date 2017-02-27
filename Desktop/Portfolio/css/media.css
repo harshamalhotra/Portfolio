@@ -49,6 +49,7 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 320px){
 .job-title{
   font-size:13px;
 }
+
 .tagline{
   font-size:11px;
 }
@@ -58,6 +59,7 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 320px){
 .tagline2{
   top:10px;
 }
+
 .project-stuff{
   position: relative;
   top:190px;
@@ -128,6 +130,41 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 320px){
   margin-top: 10px;
   font-size:12px;
 }
+
+.contag{
+  margin-top: 10px;
+}
+.dropline{
+  margin-top: 16px;
+}
+
+.full-form{
+  height: 35px;
+
+  width: 100%;
+
+  top:190px;
+
+}
+.form-box{
+  font-size: 14px;
+  margin-bottom: 15px;
+
+}
+.submit-button{
+  margin-top: -20px;
+}
+.contact-footer{
+  height: 78px;
+  top:450px;
+}
+.contact-footer .copyright>p{
+  margin-top:-45px;
+}
+.contact-footer .row{
+  height: 78px;
+}
+
 
  
 }
@@ -244,7 +281,19 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 375px){
   margin-top:70px;
 }
 
+.full-form{
 
+
+ 
+  top:200px;
+
+}
+
+.contact-footer{
+  position: relative;
+  top:470px;
+
+}
 
  
 }
@@ -375,8 +424,18 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 425px){
   margin-top: 10px;
   font-size:14px;
 }
-
-
+.full-form{
+  top:220px;
+}
+.about-box{
+  margin-top: 10px;
+}
+.contact-footer{
+  top:320px;
+}
+.contact-footer .row .icons{
+  top:-38px;
+}
  
 }
 @media
@@ -510,6 +569,34 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 768px){
   margin-top: 10px;
   font-size:16px;
 }
+.full-form{
+  top:290px;
+}
+.form-box{
+  font-size: 16px;
+  margin-left: 60px;  
+  width:85%;
+
+}
+.about-box{
+  margin-top: 20px;
+}
+.contact-footer{
+  top:137px;
+  height: 50px;
+}
+.contact-footer .row .icons{
+  top:-48px;
+}
+.contact-footer .row{
+  margin-bottom:0px;
+  height: 0px;
+  
+}
+
+
+
+
 }
 
 @media
@@ -637,6 +724,25 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 1024px)
   height:16px;
   margin-right: 15px;
 }
+.full-form{
+  top:400px;
+}
+.form-box{
+  font-size: 18px;
+  margin-left: 60px;  
+  width:80%;
+
+}
+.about-box{
+  margin-top: 20px;
+}
+.submit-button{
+  margin-top: 10px;
+}
+.contact-footer{
+  margin-top:740px;
+  height: 0px;
+}
 }
 
 
@@ -746,7 +852,7 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 1440px)
     margin-top: 30px;
   }
   .contact-me .btn{
-    margin-top:15px;
+    margin-top:0px;
   }
 
      .footer{
@@ -759,7 +865,21 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 1440px)
   height:24px;
   margin-right: 20px;
 }
+.full-form{
+  top:570px;
+}
+.form-box{
+  font-size: 20px;
+  margin-left: 140px;  
+  width:80%;
 
-
+}
+.about-box{
+  margin-top: 30px;
+}
+.contact-footer{
+  margin-top:950px;
+  height: 0px;
+}
 
 }
