@@ -43,6 +43,10 @@
     background-color: #FFF;
     border-color: transparent;
 }
+.logo-div{
+  height: 50px;
+}
+}
 
 .navbar-default .navbar-nav>li>a {
     color: #000;
@@ -112,7 +116,7 @@
 }
 
 .hero{
-  background-image:url('../images/heroimage.png');;
+  background-image:url('../images/heroimage.png');
     background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -268,4 +272,15 @@ letter-spacing: 0.41px;}
 }
 .contact-footer{
   position: relative;}
+.about{
+  background-image:url('../images/harsha-photo.png');
+}
 
+.about-text{
+  position: relative;
+  /* I am a UX Designer w: */
+  font-family: Cabin-Regular;
+  
+  color: #000000;
+
+  }
