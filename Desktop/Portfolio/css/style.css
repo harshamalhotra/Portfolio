@@ -230,6 +230,22 @@ border:none;
   margin-right: 0px;
 }
 
+.about-hero{
+  background-image:url("../images/harsha-photo.png");
+}
+
+.about-para{
+
+font-family: Cabin-Regular;
+font-size: 13px;
+color: #000000;
+line-height: 25px;
+}
+.about-text{
+  position: relative;
+  
+  margin-top: 20px;
+}
 
 
   

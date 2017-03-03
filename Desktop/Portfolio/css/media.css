@@ -25,7 +25,7 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 768px){
     .hero{
       height: 200px;
       margin-bottom: 40px;
-      background-attachment: fixed;
+      
     }
     .project{
       height: 370px;
@@ -173,4 +173,13 @@ letter-spacing: 0.41px;
 }
 .footer{
   margin-top: 0px;
+}
+
+.about-para{
+  font-size: 16px;
+  line-height: 35px;
+}
+.about-name{
+  margin-top: 40px;
+}
 }
