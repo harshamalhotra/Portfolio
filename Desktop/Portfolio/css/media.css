@@ -1,956 +1,176 @@
-@media
-only screen and (-webkit-min-device-pixel-ratio: 2)      and (min-width: 320px),
-only screen and (   min--moz-device-pixel-ratio: 2)      and (min-width: 320px),
-only screen and (     -o-min-device-pixel-ratio: 2/1)    and (min-width: 320px),
-only screen and (        min-device-pixel-ratio: 2)      and (min-width: 320px),
-only screen and (                min-resolution: 192dpi) and (min-width: 320px),
-only screen and (                min-resolution: 2dppx)  and (min-width: 320px){
+@media all and(min-width: 535px),
 
-  .logo{
-    
-    left:15px;
-    max-height: 25px;
-  }
-  .navbar-default .navbar-nav>li>a {
-    
-    right:0px;
-    
-    width: 100%;
-    display: block;
-    
-   
-}
-    .navbar-nav {
-    margin: 38.5px -15px;
-}
-.navbar-collapse{
-  width:100%;
-  height: 200px;
-  top:0px;
-}
-.navbar-default .navbar-nav .open .dropdown-menu>li>a {
-    color: #000;
-    
-    background-color: #FFF;
-}
-.hero{
-  height: 170px;
-}
-.hero-stuff{
-  
-  top:20px;
-}
-.getintouch{
-  top:25px;
-}
-.name{
-  font-size:16px;
-}
-.job-title{
-  font-size:13px;
-}
-
-.tagline{
-  font-size:11px;
-}
-.tagline1{
-  top:10px;
-}
-.tagline2{
-  top:10px;
-}
-
-.project-stuff{
-  position: relative;
-  top:190px;
-  height: 190px;
-
-}
-.project-title{
-  
-  text-align: center;
-  font-size:14px;
-  letter-spacing: 0.4px;
-}
-.project-about{
-  
-  margin-right: 20px;
-  margin-left: 20px;
-
-  font-size: 12px;
-  
-  line-height: 20px;
-
-}
-
-.see-more .btn{
-  top:0px;
-  
-  font-size:11px;
-  
-  letter-spacing: 0.41px;
-  padding: 4px 16px;
-  
-}
-.actual-image{
-  height: 150px;
-  width: auto;
-  margin-top: 0px;
-  text-align: center;
- }
-.project-text{
-  top:170px;
-}
-
-.nomnom{
-  top:-27px;
-}
-.baksa{
-  top:-75px;
-}
-.talk-title{
-  font-size:13px;
-  margin-top: 15px;
-}
-.lets-talk{
-  height: 90px;
-  margin-top:60px;
-}
-.contact-me{
-  top:10px;
-}
-.social-icon{
-  height: 14px;
-  margin-right: 10px;
-}
-.footer{
-  margin-top:15px;
-}
-.copyright{
-  margin-top: 10px;
-  font-size:12px;
-}
-
-.contag{
-  margin-top: 10px;
-}
-.dropline{
-  margin-top: 16px;
-}
-
-.full-form{
-  height: 35px;
-
-  width: 100%;
-
-  top:190px;
-
-}
-.form-box{
-  font-size: 14px;
-  margin-bottom: 15px;
-
-}
-.submit-button{
-  margin-top: -20px;
-}
-.contact-footer{
-  height: 78px;
-  top:450px;
-}
-.contact-footer .copyright>p{
-  margin-top:-45px;
-}
-.contact-footer .row{
-  height: 78px;
-}
-.aboutline{
-  top: 64px;
-}
-.about-text{
-  top:180px;
-  font-size: 12px;
-    line-height: 25px;
-}
-
-.para{
-  margin-top: 20px;
-}
-
- 
-}
-
-@media
-only screen and (-webkit-min-device-pixel-ratio: 2)      and (min-width: 375px),
-only screen and (   min--moz-device-pixel-ratio: 2)      and (min-width: 375px),
-only screen and (     -o-min-device-pixel-ratio: 2/1)    and (min-width: 375px),
-only screen and (        min-device-pixel-ratio: 2)      and (min-width: 375px),
-only screen and (                min-resolution: 192dpi) and (min-width: 375px),
-only screen and (                min-resolution: 2dppx)  and (min-width: 375px){
+only screen and (        -webkit-min-device-pixel-ratio: 2)      and (min-width: 535px),
+only screen and (                min-resolution: 192dpi) and (min-width: 535px),
+only screen and (                min-resolution: 2dppx)  and (min-width: 535px){
+    .project{
+      height: 330px;
+    }
+    .image{
+      height: 165px;
+    }
+     .text{
+      height: 165px;
+    }
 
 
 
-  .logo{
-    
-    left:25px;
-    max-height: 35px;
-  }
-   .navbar-right{
-    margin-right: 0px;
-  }
-  .navbar-default .navbar-collapse .nav .nav-item>a, .navbar-default .navbar-collapse .nav .nav-item>a:focus, .navbar-default .navbar-collapse .nav .nav-item>a:hover {
-    color: #000;
-    background-color: #FFF;
-    top:-50px;
-    
-}
-.navbar-right .dropdown-menu {
-    right: 0;
-    left: auto;
-    top: 5px;
-}
-.navbar-default .navbar-nav .open .dropdown-menu>li>a {
-    color: #000;
-    
-    background-color: #FFF;
-}
-.hero{
-  height: 170px;
-
-}
-.hero-content{
-  top:50px;
-}
-.hero-stuff{
-  
-  top:20px;
-}
-.getintouch{
-  top:25px;
-}
-.name{
-  font-size:16px;
-}
-.job-title{
-  font-size:13px;
-}
-.tagline{
-  font-size:11px;
-}
-.tagline1{
-  top:10px;
-}
-.tagline2{
-  top:10px;
-}
-.project-stuff{
-  position: relative;
-  top:200px;
-  height: 185px;
-
-}
-.project-title{
-  margin-top: 10px;
-  text-align: center;
-  font-size:14px;
-  letter-spacing: 0.4px;
-}
-.project-about{
-  margin-top: 10px;
-  margin-right: 20px;
-  margin-left: 20px;
-
-  font-size: 12px;
-  
-  line-height: 20px;
-
 }
 
-.see-more .btn{
-  top:0px;
-  
-  font-size:11px;
-  
-  letter-spacing: 0.41px;
-  padding: 4px 16px;
-  
-}
-.actual-image{
-  height: 150px;
-  width: auto;
-  margin-top: 0px;
-  text-align: center;
- }
- .project-text{
-  top:170px;
-}
-.contact-me{
-  top:20px;
-}
-.lets-talk{
-  height: 110px;
-  margin-top:70px;
-}
+@media all and(min-width: 768px),
 
-.full-form{
-
-
- 
-  top:200px;
-
-}
-
-.contact-footer{
-  position: relative;
-  top:470px;
-
-}
-.aboutline{
-  top: 64px;
-}
-.about-text{
-  top:200px;
-  font-size: 14px;
-    line-height: 25px;
-}
-.para{
-  margin-top: 30px;
-}
-
-
- 
-}
-
-
-@media
-only screen and (-webkit-min-device-pixel-ratio: 2)      and (min-width: 425px),
-only screen and (   min--moz-device-pixel-ratio: 2)      and (min-width: 425px),
-only screen and (     -o-min-device-pixel-ratio: 2/1)    and (min-width: 425px),
-only screen and (        min-device-pixel-ratio: 2)      and (min-width: 425px),
-only screen and (                min-resolution: 192dpi) and (min-width: 425px),
-only screen and (                min-resolution: 2dppx)  and (min-width: 425px){
-
-
-
-
-  .logo{
-    left:45px;
-
-  }
-  .navbar-right{
-    margin-right: 0px;
-  }
-   .navbar-default .navbar-collapse .nav .nav-item>a, .navbar-default .navbar-collapse .nav .nav-item>a:focus, .navbar-default .navbar-collapse .nav .nav-item>a:hover {
-    color: #000;
-    background-color: #FFF;
-    font-size:16px;
-
-
-  }
-  .navbar-right .dropdown-menu {
-    right: 0;
-    left: auto;
-    top: 0px;
-}
-.navbar-default .navbar-nav .open .dropdown-menu>li>a {
-    color: #FFF;
-    
-    background-color: #000;
-}
-.navbar-collapse{
-  top:-10px;
-}
-.navbar-default .navbar-collapse .nav .nav-item>a, .navbar-default .navbar-collapse .nav .nav-item>a:focus, .navbar-default .navbar-collapse .nav .nav-item>a:hover {
-    color: #000;
-    background-color: #FFF;
-    top: -41px;
-}
-.hero{
-  top:50px;
-  height: 180px;
-}
-.hero-stuff{
-  
-  top:30px;
-}
-.getintouch{
-  top:25px;
-}
-.name{
-  font-size:16px;
-}
-.job-title{
-  font-size:13px;
-}
-.tagline{
-  font-size:11px;
-}
-.tagline1{
-  top:10px;
-}
-.tagline2{
-  top:10px;
-}
-.project{
-  top:20px;
-}
-.project-stuff{
-  position: relative;
-  top:200px;
-  height: 160px;
-
-
-}
-.project-title{
- 
-  text-align: center;
-  font-size:14px;
-  letter-spacing: 0.4px;
-}
-.project-about{
-  margin-top: 10px;
-  margin-right: 20px;
-  margin-left: 20px;
-
-  font-size: 12px;
-  
-  line-height: 20px;
-
-}
-
-.see-more .btn{
-  top:0px;
-  
-  font-size:11px;
-  
-  letter-spacing: 0.41px;
-  padding: 4px 16px;
-  
-}
-.actual-image{
-  height: 150px;
-  width: auto;
-  }
-  .lets-talk{
-    top:140px;
-    height: 96px;
-  }
-
-  .social-icon{
-  height: 16px;
-  
-}
-.footer{
-  margin-top:168px;
-}
-.copyright{
-  margin-top: 10px;
-  font-size:14px;
-}
-.full-form{
-  top:220px;
-}
-.about-box{
-  margin-top: 10px;
-}
-.contact-footer{
-  top:320px;
-}
-.contact-footer .row .icons{
-  top:-38px;
-}
-.aboutline{
-  top: 64px;
-}
-.about-text{
-  top:200px;
-  font-size: 14px;
-    line-height: 30px;
-}
-.para{
-  margin-top: 30px;
-}
-
- 
-}
-@media
-only screen and (-webkit-min-device-pixel-ratio: 2)      and (min-width: 768px),
-only screen and (   min--moz-device-pixel-ratio: 2)      and (min-width: 768px),
-only screen and (     -o-min-device-pixel-ratio: 2/1)    and (min-width: 768px),
-only screen and (        min-device-pixel-ratio: 2)      and (min-width: 768px),
+only screen and (        -webkit-min-device-pixel-ratio: 2)      and (min-width: 768px),
 only screen and (                min-resolution: 192dpi) and (min-width: 768px),
 only screen and (                min-resolution: 2dppx)  and (min-width: 768px){
-
-
-
-
-  .logo{
-    left:45px;
-
-  }
-  .navbar-right{
-    margin-right: 0px;
-  }
-   .navbar-default .navbar-collapse .nav .nav-item>a, .navbar-default .navbar-collapse .nav .nav-item>a:focus, .navbar-default .navbar-collapse .nav .nav-item>a:hover {
-    color: #000;
-    background-color: #FFF;
-    font-size:16px;
-
-
-  }
-  .navbar-right .dropdown-menu {
-    right: 0;
-    left: auto;
-    top: 0px;
-}
-.navbar-default .navbar-nav .open .dropdown-menu>li>a {
-    color: #FFF;
-    
-    background-color: #000;
-}
-.navbar-collapse{
-  top:-10px;
-}
-.navbar-default .navbar-collapse .nav .nav-item>a, .navbar-default .navbar-collapse .nav .nav-item>a:focus, .navbar-default .navbar-collapse .nav .nav-item>a:hover {
-    color: #000;
-    background-color: #FFF;
-    top: -31px;
-}
-.hero{
-  top:50px;
-  height: 250px;
-  background-attachment: fixed;
-}
-.hero-stuff{
-  
-  top:55px;
-}
-.getintouch{
-  top:40px;
-  font-size:13px;
-}
-.name{
-  font-size:20px;
-}
-.job-title{
-  font-size:16px;
-}
-.tagline{
-  font-size:12px;
-}
-
-.btn-group-sm>.btn, .btn-sm {
-    padding: 5px 65px;
-    font-size: 13px;
-    
-    
-}
-
-.project{
-  top:120px;
-}
-.project-image{
-  
-  text-align: center;
-}
-.project-about{
-  margin-left: 50px;
-  font-size: 14px;
-  line-height: 30px;
- 
-}
-.project-title{
-  font-size: 16px;
-}
-.project-text{
-  text-align: left;
-   
-}
-.actual-image{
-  margin-top: 10px;
-  height: 200px;
-}
-.see-more .btn {
-    top: 0px;
-    font-size: 13px;
-    letter-spacing: 0.41px;
-    padding: 4px 40px;
-}
-.project-stuff{
-  top:160px;
-}
-.nomnom{
-  top:250px;
-}
-.baksa{
-  top:370px;
-}
-.baksa-image{
-  margin-top:30px;
-}
- .lets-talk{
-    top:560px;
-    height: 130px;
-  }
-  .talk-title{
-    font-size:16px;
-    margin-top: 30px;
-  }
-
-  .footer{
-  margin-top:589px;
-}
-.copyright{
-  margin-top: 10px;
-  font-size:16px;
-}
-.full-form{
-  top:290px;
-}
-.form-box{
-  font-size: 16px;
-  margin-left: 60px;  
-  width:85%;
+    .hero{
+      height: 200px;
+      margin-bottom: 40px;
+      background-attachment: fixed;
+    }
+    .project{
+      height: 370px;
+    }
+    .image{
+      height: 200px;
+      padding-top: 0px;
+    }
+     .text{
+      height: 200px;
+    }
+    .image>img{
+    height: 200px;
+    width: auto;
 
 }
-.about-box{
-  margin-top: 20px;
-}
-.contact-footer{
-  top:137px;
-  height: 50px;
-}
-.contact-footer .row .icons{
-  top:-48px;
-}
-.contact-footer .row{
-  margin-bottom:0px;
-  height: 0px;
-  
-}
-.aboutline{
-  top: 95px;
-}
-.about-text{
-  top:290px;
-  font-size: 16px;
-    line-height: 30px;
-}
+.text{
+  padding-top: 30px;
 
-.para{
-  margin-top: 30px;
-}
-
-
-}
-
-@media
-only screen and (-webkit-min-device-pixel-ratio: 2)      and (min-width: 1024px),
-only screen and (   min--moz-device-pixel-ratio: 2)      and (min-width: 1024px),
-only screen and (     -o-min-device-pixel-ratio: 2/1)    and (min-width: 1024px),
-only screen and (        min-device-pixel-ratio: 2)      and (min-width: 1024px),
-only screen and (                min-resolution: 192dpi) and (min-width: 1024px),
-only screen and (                min-resolution: 2dppx)  and (min-width: 1024px){
-  .logo{
-    max-height: 50px;
-    left:140px;
-  }
-  .navbar-right {
-  
-    margin-right: 100px;
-}
- .navbar-default .navbar-collapse .nav .nav-item>a, .navbar-default .navbar-collapse .nav .nav-item>a:focus, .navbar-default .navbar-collapse .nav .nav-item>a:hover {
-    color: #000;
-    background-color: #FFF;
-    font-size: 20px;
-    
-}
-  .navbar-right .dropdown-menu {
-    right: 0;
-    left: auto;
-    top: 10px;
-    font-size:20px;
-}
-.navbar-default .navbar-nav .open .dropdown-menu>li>a {
-    color: #000;
-  
-    background-color: #FFF;
-}
-.navbar-collapse{
-  top:15px;
 }
 .navbar-nav{
+  margin-top: 0px;
+  font-family: cabin;
+
+}
+.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+    color: #000;
+    background-color: #FFF;
+}
+.lets-talk{
+  margin-top: 50px;
+}
+.talk-title{
   margin-top: 20px;
-  margin-bottom: 0px;
-
 }
-.hero{
-  top:70px;
-  height: 350px;
-  background-attachment: fixed;
-}
-.hero-stuff{
-  
-  top:80px;
-}
-.getintouch{
-  top:40px;
-  font-size:13px;
-}
-.name{
-  font-size:24px;
-}
-.job-title{
-  font-size:20px;
-}
-.tagline{
-  font-size:16px;
 }
 
-.btn-group-sm>.btn, .btn-sm {
-    padding: 5px 97px;
-    font-size: 13px;
-    
-    
-}
-.actual-image{
-  margin-left: 100px;
-  height: 250px;
+@media all and(min-width: 1024px),
 
+only screen and (        -webkit-min-device-pixel-ratio: 2) and (min-width: 1024px),
+only screen and (                min-resolution: 192dpi) and (min-width: 1024px),
+only screen and (                min-resolution: 2dppx)  and (min-width: 1024px){
+   .logo>a>img{
+  height: 40px;
+  margin:10px 0px 10px 120px;
 }
-.little-hope{
-  top:250px;
+    .nav-item{
+      font-size: 18px;
+    }
+    .navbar-right{
+  margin-right: 50px;
+}
+    .navbar{
+      margin-bottom: 10px;
+    }
+    .hero{
+      height: 300px;
 
-}
-.project-title {
-    font-size: 18px;
-    margin-left: 0px;
-}
-.project .row .project-about>p{
-  font-size:16px;
-  margin-left: 0px;
-  line-height: 40px;
-  
-}
-.see-more .btn {
-    top: 0px;
-    font-size: 13px;
-    letter-spacing: 0.41px;
-    padding: 4px 53px;
-    margin-left: 0px;
-}
-.nomnom{
-  top:420px;
-}
-.see-more{
-  top:20px;
-}
-.baksa{
-  top:600px;
-}
-.project-text{
-  top:166px;
-}
- .lets-talk{
-    top:850px;
-    height: 130px;
+      
   }
-  .talk-title{
+  .hero-stuff{
+    top:60px;
+  }
+  .name{
+    font-size: 24px;
+  }
+  .designation{
     font-size:18px;
+  }
+  .tagline{
+    margin-top:20px;
+    font-size:16px;
+  }
+  .getintouch{
     margin-top: 30px;
   }
-    .footer{
-  margin-top:877px;
+  .getintouch-button{
+    font-size:16px;
+
+  }
+    .project{
+      height: 400px;
+    }
+    .image{
+      height: 400px;
+      padding-top: 0px;
+    }
+     .text{
+      height: 400px;
+    }
+    .image>img{
+    height: 300px;
+  
+
+}
+.text{
+  padding-top: 30px;
+
+}
+.title{
+  font-size: 20px;
+}
+.para>p{
+  text-align: left;
+  line-height: 40px;
+  font-size:16px;
+  padding-left: 25px;
+  padding-right: 25px;
+ 
+ }
+
+ .see-more-button{
+  
+margin-top: 20px;
+padding:5px 50px;
+
+letter-spacing: 0.41px;
+}
+
+.lets-talk{
+  margin-top: 0px;
+  height: 130px;
+}
+.talk-title{
+  font-size: 24px;
 }
 .copyright{
   margin-top: 0px;
+  font-size:16px;
+  padding-top: 10px;
+
 }
+.icons{margin-top: 0px;}
+
 .social-icon{
-  height:16px;
-  margin-right: 15px;
+  height: 18px;
 }
-.full-form{
-  top:400px;
+.footer{
+  height: 40px;
 }
-.form-box{
-  font-size: 18px;
-  margin-left: 60px;  
-  width:80%;
-
-}
-.about-box{
-  margin-top: 20px;
-}
-.submit-button{
-  margin-top: 10px;
-}
-.contact-footer{
-  margin-top:740px;
-  height: 0px;
-}
-.aboutline{
-  top: 120px;
-}
-.about-text{
-  top:400px;
-  font-size: 16px;
-    line-height: 30px;
-}
-.para{
-  margin-top: 30px;
+.footer .row{
+  height: 40px;
 }
 
-
 }
-
-
-@media
-only screen and (-webkit-min-device-pixel-ratio: 2)      and (min-width: 1440px),
-only screen and (   min--moz-device-pixel-ratio: 2)      and (min-width: 1440px),
-only screen and (     -o-min-device-pixel-ratio: 2/1)    and (min-width: 1440px),
-only screen and (        min-device-pixel-ratio: 2)      and (min-width: 1440px),
-only screen and (                min-resolution: 192dpi) and (min-width: 1440px),
-only screen and (                min-resolution: 2dppx)  and (min-width: 1440px){
-
-  .logo{
-    max-height: 50px;
-    left:140px;
-  }
-  .navbar-right {
-  
-    margin-right: 100px;
-}
- .navbar-default .navbar-collapse .nav .nav-item>a, .navbar-default .navbar-collapse .nav .nav-item>a:focus, .navbar-default .navbar-collapse .nav .nav-item>a:hover {
-    color: #000;
-    background-color: #FFF;
-    font-size: 20px;
-    
-}
-  .navbar-right .dropdown-menu {
-    right: 0;
-    left: auto;
-    top: 10px;
-    font-size:20px;
-}
-.navbar-default .navbar-nav .open .dropdown-menu>li>a {
-    color: #000;
-  
-    background-color: #FFF;
-}
-.navbar-collapse{
-  top:15px;
-}
-.hero{
-  top:70px;
-  height: 500px;
-  background-attachment: fixed;
-}
-.hero-stuff{
-  
-  top:110px;
-}
-.getintouch{
-  top:40px;
-  font-size:13px;
-}
-.name{
-  font-size:50px;
-}
-.job-title{
-  font-size:30px;
-}
-.tagline{
-  font-size:24px;
-}
-
-.btn-group-sm>.btn, .btn-sm {
-    padding: 5px 140px;
-    font-size: 20px;
-}
-.project-title {
-    font-size: 24px;
-    margin-left: -20px;
-}
-.actual-image {
-    margin-left: 137px;
-    height: 350px
-}
-.project-stuff{
-  top:325px;
-}
-.project .row .project-about>p {
-    font-size: 20px;
-    margin-left: 0px;
-    line-height: 50px;
-    margin-top: 20px;
-}
-.see-more .btn {
-   
-    font-size: 16px;
-    letter-spacing: 0.41px;
-    padding: 10px 86px;
-    margin-left: 0px;
-}
-.see-more{
-  top:40px;
-  left: -30px;
-}
-.nomnom{
-  top:534px;
-}
-.baksa{
-  top:822px;
-}
- .lets-talk{
-    top:1350px;
-    height: 170px;
-  }
-  .talk-title{
-    font-size:24px;
-    margin-top: 30px;
-  }
-  .contact-me .btn{
-    margin-top:0px;
-  }
-
-     .footer{
-  margin-top:1380px;
-}
-.copyright{
-  font-size:18px;
-}
-.social-icon{
-  height:24px;
-  margin-right: 20px;
-}
-.full-form{
-  top:570px;
-}
-.form-box{
-  font-size: 20px;
-  margin-left: 140px;  
-  width:80%;
-
-}
-.about-box{
-  margin-top: 30px;
-}
-.contact-footer{
-  margin-top:950px;
-  height: 0px;
-}
-.aboutline{
-  top: 120px;
-}
-.about-text{
-  top:570px;
-  font-size: 20px;
-    line-height: 35px;
-}
-.para{
-  margin-top: 30px;
-}
-
-
-
+.footer{
+  margin-top: 0px;
 }
