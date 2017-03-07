@@ -2,6 +2,10 @@
   margin-bottom: 0px;
   border:none;
   margin-right: 0px;
+  background-color: #FFFFFF;
+}
+.navbar-default{
+  background-color: #FFFFFF;
 }
 .nav-item{
 
@@ -206,6 +210,8 @@ border:none;
 
 
 }
+
+
 .footer{
 
     margin-top: 0px;
@@ -246,8 +252,123 @@ line-height: 25px;
   
   margin-top: 20px;
 }
+.full-form{
+  position: relative;
+  top:40px;
+ 
+font-family: Cabin-Regular;
+
+color: #979797;
+line-height: 35px;
+height: 460px;
+}
+
+.box{
+  border-radius: 0px;
+  border:none;
+  border-bottom: 1px solid #979797;
+  box-shadow: none;
+  width: 100%;
+  padding: 10px 20px;
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  color: #979797 
+  font-family: Cabin-Regular;
 
 
+}
+
+
+.contactme-tagline{
+  line-height: 30px;
+}
+.about-box{
+  width: 100%;
+  margin-top: 20px;
+  font-family: Cabin-Regular;
+
+}
+.submit{
+  margin-top: 0px;
+  background-color: #FFF;
+
+}
+
+.submit-button{
+  border-radius: 100px;
+}
+.content{
+  padding: 15px;
+}
+
+.baksa-name{
+
+color: #006A94;
+
+}
+
+.baksa-sub{
+
+color: #00ACF0;
+
+
+}
+
+.description{
   
+  height: 140px;
+  width: 100%;
+  padding-top: 10px;
+  margin-top: 20px;
+}
+
+.desc-title{
+  text-align: center;
+  font-family: Cabin-Bold;
+  font-size: 14px;
+  color: #4A4A4A;
+  letter-spacing: 0.54px;
+}
+.desc-content{
+text-align: left;
+font-family: Cabin-Regular;
+font-size: 11px;
+color: #000000;
+line-height: 25px;
+}
+.white-bg{
+  background-color: #FFFFFF;
+}
+.grey-bg{
+  background-color: #F2F2F2;
+}
+
+.scope{
+    
+  width: 100%;
+  height: 245px;
+ 
+  padding-top: 10px;
+}
+
+
+.research {
+    
+
+    width: 100%;
+    height: 690px;
+    padding-top: 10px;
+}
+
+.persona {
+    width: 100%;
+    height: 300px;
+    padding-top: 10px;
+}
+
+.identity-and-branding {background-color: yellow;
+    width: 100%;
+    height: 460px;
+    padding-top: 10px;
+}
 
 
