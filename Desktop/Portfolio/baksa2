@@ -170,7 +170,7 @@
     <div class="desc-content col-xs-12 col-sm-12 col-md-12 col-lg-12">
       <p>Based on business requirements and our research, I determined a list of user stories that will help in creation of user flows.</p>
     </div>
-    <a href="images/baksa-userflows-png.png">
+    <a href="images/baksa-userflows-png">
 
     <div class="uf1 uf image col-xs-12 col-sm-12 col-md-6 col-lg-6">
       <img src="images/baksa-userflow1.png" />
@@ -186,7 +186,7 @@
       <img src="images/baksa-userflow4.png" />
     </div> 
     </a>
-</div>
+
   <!-- WIREFRAMES -->
 <div class="wireframes grey-bg">
   <div class="row">
@@ -205,62 +205,14 @@
      <div class="desc-content col-xs-12 col-sm-12 col-md-12 col-lg-12">
       <p>I then conducted a preference test with 10 people. Seven out of ten people preferred version 1 of the hero page. I kept the first one for the low fidelity wireframe and then  went ahead and created the other low fidelity wireframes for baksa.  </p>
     </div>
-    <div class="row">
-      <div class="wf2 image col-xs-12 col-sm-12 col-md-6 col-lg-6">
-        <img src="images/baksa-wf2.png" />
-      </div> 
-       <div class="wf3 wf2 image col-xs-12 col-sm-12 col-md-6 col-lg-6 ">
-        <img src="images/baksa-wf3.png" />
-      </div>
-    </div>   
 
-     <div class="desc-content col-xs-12 col-sm-12 col-md-12 col-lg-12">
-      <p>By now, I had an idea on how baksa will be roughly structured. I then created medium fidelity wireframes by adding content to it. I designed these  without color because I did not want my test users to get distracted with the color template that I use.  </p>
-    </div>
-    <div class="row">
-      <div class="wf2 image col-xs-12 col-sm-12 col-md-6 col-lg-6">
-        <img src="images/baksa-wf4.png" />
-      </div> 
-       <div class="wf3 wf2 image col-xs-12 col-sm-12 col-md-6 col-lg-6 ">
-        <img src="images/baksa-wf5.png" />
-      </div>
-    </div>   
-
-     <div class="desc-content col-xs-12 col-sm-12 col-md-12 col-lg-12">
-      <p>I then uploaded my medium fidelity prototype onto peek to understand how users perceived it. I received very positive feedback. The user appreciated the clean design and focused on how clean the hero page looked.   </p>
-
-      <p>The usability test results motivated me to go ahead and I created the high fidelity wireframes for baksa by adding color and content to it. </p>
-    </div>
-    <div class=" wf4 image col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
-        <img src="images/baksa-wf6.png" />
-      </div>
-</div> 
-<!-- PROTOTYPE -->
-<div class="prototype white-bg">
-  <div class="row">
-    <div class="desc-title col-xs-12 col-sm-12 col-md-12 col-lg-12"> PROTOTYPE
-     <div class="pr contact-me see-more col-xs-12 col-sm-12 col-md-12 col-lg-12 "><a href="#" class="see-more-button btn btn-primary btn-sm text-center" role="button">Contact me</a> </div>
-    </div>
-  </div>
-    
-</div>
-
-<!-- DEPLOYEMENT -->
-<div class="deployement grey-bg">
-  <div class="row">
-    <div class="desc-title col-xs-12 col-sm-12 col-md-12 col-lg-12"> DEPLOYEMENT
-    </div>
-  </div>
-
-  <div class="desc-content col-xs-12 col-sm-12 col-md-12 col-lg-12">
-  <p>I wanted my product to be identified as a box to store all the content. It should be able to store images and text. I played all around with various variations of the word “box” and decided to call it “baksa”. A box is called “baksa” in hindi. </p>
-  <p>I wanted baksa to have a vibe which is professional, trustworthy and slightly playful to engage the users. I decided to use Helvetica Neue and Garamond as font families, both of which are classic fonts and are in complete harmony with each other.</p>
-  </div>
-   <div class="image col-xs-12 col-sm-12 col-md-12 col-lg-12">
-      <img src="images/baksa-brand.png" />
+    <div class="wf2 image col-xs-12 col-sm-12 col-md-6 col-lg-6">
+      <img src="images/baksa-wf2.png" />
     </div> 
-  
-</div>
+     <div class="wf2 image col-xs-12 col-sm-12 col-md-6 col-lg-5 col-lg-offset-1">
+      <img src="images/baksa-wf3.png" />
+    </div> 
+
 
 
 

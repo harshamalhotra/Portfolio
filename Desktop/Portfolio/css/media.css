@@ -10,10 +10,17 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 375px){
    .identity-and-branding {
     height: 430px;
    }
+   .scope {
+    height: 220px;
+}
+.user-flows{
+  height: 810px;
+} 
+  
 }
 
 
-@media all and(min-width: 375px),
+@media all and(min-width: 425px),
 
 only screen and (        -webkit-min-device-pixel-ratio: 2)      and (min-width: 425px),
 only screen and (                min-resolution: 192dpi) and (min-width: 425px),
@@ -50,6 +57,22 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 425px){
  .identity-and-branding {
     height: 390px;
    }
+.user-flows{
+  height: 950px;
+} 
+.user-flows .uf>img {
+    width: 160px;
+    height: auto;
+}
+.uf2{
+  top:60px;
+}
+.uf3{
+  top:60px;
+}
+.uf4{
+  top:135px;
+}
 
 }
 
@@ -155,24 +178,50 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 768px){
 .description {
     height: 100px;
 
-    padding-top: 10px;
+    padding-top: 0px;
     margin-top: 180px;
 }
 .scope{
-  height: 270px;
+  height: 210px;
  }
 .research {
     height: 420px;
-    padding-top: 30px;
+    margin-top: 10px;
 }
 .persona {
     height: 320px;
-    padding-top: 30px;
+    padding-top: 10px;
 }
 .identity-and-branding {
     height: 370px;
+    padding: 0px;
 }
-
+.uf{
+  margin-top: 20px;
+}
+.user-flows{
+  height: 1000px;
+}
+.desc-title{
+  margin-top: 0px;
+  padding-top: 15px;
+}
+.uf1{
+  top: -10px;
+}
+.uf3{
+  top: -50px;
+}
+.uf2{
+  top:0px;
+}
+.uf4{
+  top:-20px;
+}
+.wf1>img{
+  visibility: visible;
+  height:300px;
+}
 
 }
 
@@ -230,7 +279,7 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 1024px)
       height: 400px;
     }
     .image>img{
-    height: 300px;
+    height: 340px;
   
 
 }
@@ -323,7 +372,7 @@ letter-spacing: 0.41px;
 
     height: 120px;
     width: 100%;
-    padding-top: 10px;
+    padding-top: 15px;
     margin-top: 0px;
 }
 .scope{
@@ -336,16 +385,78 @@ letter-spacing: 0.41px;
 .research {
    
     width: 100%;
-    height: 450px;
-    padding-top: 30px;
+    height: 410px;
+    padding-top: 10px;
 }
 .persona {
     height: 470px;
-    padding-top: 30px;
+    padding-top: 15px;
     
 }
 .identity-and-branding {
-    height: 560px;
+    height: 600px;
+    top: -10px;
+}
+.identity-and-branding .desc-title{
+  padding-top: 10px;
+}
+
+.desc-title{
+  margin-top: 0px;
+  padding-top: 0px;
+}
+.user-flows {
+  height: 1430px;
+}
+.user-flows .uf>img {
+    width: 400px;
+}
+.uf2{
+  top:-10px;
+}
+.uf3{
+  top:280px;
+}
+.uf4{
+  top:280px;
+}
+.wf1>img{
+  height:500px;
+}
+.wireframes {
+    position: absolute;
+    top: 3840px;
+    height: 2250px;
+}
+.wireframes .desc-title{
+  padding-top: 30px;
+}
+.wf1>img{
+
+  height:300px;
+  width: auto;
+}
+.wf2>img{
+
+  height:325px;
+  width:auto;
+}
+.wf3{
+  left: -50px;
+}
+.wf4>img{
+  width: auto;
+  height: 600px;
+}
+.prototype{
+  position: absolute;
+  top:6110px;
+  width: 100%;
+  height: 100px;
+}
+.pr{
+  margin-top: 10px;
+  background-color: #FFF;
 }
 
 }
