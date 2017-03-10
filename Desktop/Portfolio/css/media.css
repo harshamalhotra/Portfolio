@@ -16,6 +16,31 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 375px){
 .user-flows{
   height: 810px;
 } 
+.wireframes{
+  top: 2820px;
+
+}
+.prototype{
+  top: 4300px;
+}
+.deployement{
+  top:4390px;
+}
+.dp{
+  top:180px;
+}
+.usability-test{
+  top:4620px;
+}
+.lessons{
+  top:4790px;
+}
+.baksa-lets-talk{
+  top:5100px;
+}
+.baksa-footer{
+top:5200px;
+}
   
 }
 
@@ -73,7 +98,40 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 425px){
 .uf4{
   top:135px;
 }
-
+.wireframes {
+    top: 2750px;
+}
+.wf-fourth{
+  top:-170px;
+}
+.wf4>img {
+   
+    height: 250px;
+}
+.wf4{
+  top: -190px;
+}
+.wireframes{
+  height: 1360px;
+}
+.prototype {
+    top: 4110px;
+}
+.deployement {
+    top: 4200px;
+}
+.usability-test {
+    top: 4430px;
+}
+.lessons {
+    top: 4600px;
+}
+.baksa-lets-talk {
+    top: 4830px;
+}
+.baksa-footer {
+    top: 4930px;
+}
 }
 
 /*
@@ -222,7 +280,61 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 768px){
   visibility: visible;
   height:300px;
 }
+.wf-second {
+    top: 110px;
+}
+.wf2{
+  top:120px;
+}
+.wf3{
+  top:150px; 
+}
+.wf-third {
+    top: 160px;
+}
+.wf-fourth {
+    top: 190px;
+}
+.wf4 {
+    top: 190px;
+}
+.wf4>img{
+  height: 400px;
+}
+.prototype{
+  top:4850px;
+  height: 120px;
+}
+.deployement{
+  top: 4970px;
+}
 
+.dp {
+    top: 140px;
+}
+.wf5{
+  top:160px;
+}
+.wf6{
+  top:180px;
+}
+.wireframes{
+  top:2890px;
+  height: 1970px;
+}
+.usability-test{
+  top:5160px;
+}
+
+.lessons{
+top: 5320px;
+}
+.baksa-lets-talk{
+top: 5490px;
+}
+.baksa-footer{
+  top: 5620px;
+}
 }
 
 @media all and(min-width: 1024px),
@@ -424,39 +536,87 @@ letter-spacing: 0.41px;
   height:500px;
 }
 .wireframes {
-    position: absolute;
+    
     top: 3840px;
     height: 2250px;
 }
 .wireframes .desc-title{
   padding-top: 30px;
 }
+.wf1{
+  visibility: visible;
+}
 .wf1>img{
-
+  visibility: visible;
   height:300px;
-  width: auto;
+  
 }
 .wf2>img{
 
   height:325px;
-  width:auto;
+
 }
 .wf3{
   left: -50px;
 }
 .wf4>img{
-  width: auto;
+
   height: 600px;
 }
 .prototype{
-  position: absolute;
-  top:6110px;
-  width: 100%;
+  
+  top:6090px;
+  
   height: 100px;
+  
+  padding-top: 10px;
 }
 .pr{
-  margin-top: 10px;
-  background-color: #FFF;
+  margin-top: 0px;
+  
+}
+.deployement{
+  
+  
+  top:6190px;
+  padding-top: 10px;
+  height: 510px;
+}
+.dp{
+  top:100px;
+  margin-top:10px;
+  height: 300px;
+
+}
+.dp2{
+  
+  top:180px;
+  visibility: visible;
+}
+.dp2>img{
+  height: 300px;
+}
+.usability-test{
+  
+  top:6700px;
+  padding-top: 10px;
+  height: 150px;
+}
+.lessons{
+ 
+  top:6850px;
+  padding-top: 10px;
+  height: 270px;
+}
+.baksa-lets-talk{
+ 
+  top:7120px;
+ 
+} 
+
+.baksa-footer{
+ 
+  top:7250px;
 }
 
 }
