@@ -335,8 +335,8 @@ font-size: 11px;
 color: #000000;
 line-height: 25px;
 }
-.white-bg{
-  background-color: #FFFFFF;
+.white-bg{background-color: red;
+  /*background-color: #FFFFFF;*/
 }
 .grey-bg{
   background-color: #F2F2F2;
@@ -493,4 +493,138 @@ width:auto;
   position: absolute;
   top:5400px;
   
+}
+.comp-analysis {
+    width: 100%;
+    height: 290px;
+    padding-top: 10px;
+}
+.comp-icon{
+  width: auto;
+  position: relative;
+
+}
+
+.comp-image{
+ text-align: center; 
+}
+
+.interviews {
+    width: 100%;
+    height: 290px;
+    padding-top: 10px;
+}
+.nomnom .user-flows .uf1{
+  height: 50px;
+  width: 100%;
+}
+.nomnom .user-flows .uf1>img{
+  height: 50px;
+  width: auto;
+  text-align: center;
+}
+.nomnom .user-flows .uf2{
+  height: 140px;
+  width: 100%;
+  text-align: center;
+}
+.nomnom .user-flows .uf2>img{
+  height: 140px;
+  width: auto;
+}
+.nomnom .user-flows .uf3{
+    top: 0px;
+    height: 250px;
+}
+.nomnom .user-flows .uf3>img {
+    height:250px;
+    width: auto;
+}
+.nomnom .wireframes{
+  top:4190px;
+  height: 1000px;
+}
+.nomnom .wireframes .wf>img{
+  width: auto;
+  margin-top: 0px;
+}
+.nomnom .wireframes .wf-para{
+  top:40px;
+}
+.nomnom .prototype .pr{
+  background-color: #F2F2F2;
+}
+.nomnom .usability-test .ut{
+  text-align: center;
+  margin-top: 10px;
+}
+.nomnom .footer{
+  position: absolute;
+  top:5840px;
+
+ 
+}
+.nomnom .image{
+  height: 130px;
+  padding-top: 0px;
+
+}
+.nomnom .description{
+  height: 350px;
+  margin-top: 0px;
+}
+.nomnom .scope{
+  height: 270px;
+}
+ .nomnom .icons .comp-icon>img{
+ height: 30px;
+
+}
+.nomnom .comp-analysis{
+  height: 550px;
+}
+.nomnom .interviews .interview-image>img{
+  height: 120px;
+  width: auto;
+}
+
+.nomnom .comp-analysis .para-2{
+  margin-top: 30px;
+}
+.nomnom .comp-analysis .comp-image{
+  margin-top: 30px;
+}
+.nomnom .interviews{
+  height: 1270px;
+}
+.nomnom .identity-and-branding{
+  height: 400px;
+}
+.nomnom .persona{
+  height: 310px;
+}
+.nomnom .user-flows {
+    width: 100%;
+    height: 780px;
+    padding-top: 20px;
+}
+.nomnom .lets-talk{
+  position: absolute;
+  top:5740px;
+}
+.nomnom .prototype{
+  position: absolute;
+  top:5190px;
+}
+.nomnom .usability-test {
+    top: 5280px;
+    height: 220px;
+}
+.nomnom .lessons {
+  
+    top: 5500px;
+
+}
+.nomnom .wireframes .wf5{
+  top:40px;
 }
