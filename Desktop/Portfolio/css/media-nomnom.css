@@ -14,13 +14,159 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 375px){
 only screen and (        -webkit-min-device-pixel-ratio: 2)      and (min-width: 425px),
 only screen and (                min-resolution: 192dpi) and (min-width: 425px),
 only screen and (                min-resolution: 2dppx)  and (min-width: 425px){
+  .nomnom .description{
+    height: 260px;
+  }
+  .nomnom .scope {
+    height: 230px;
+}
+.nomnom .comp-analysis {
+    height: 470px;
+}
+.nomnom .interviews {
+    height: 1000px;
+}
+.nomnom .persona {
+    height: 280px;
+}
+.nomnom .identity-and-branding {
+    height: 350px;
+}
+.nomnom .user-flows .uf2 {
+  top:0px;
+}
+.nomnom .user-flows {
+    height: 730px;
+}
+.nomnom .wireframes {
+    top: 3640px;
+    height: 870px;
+}
+.nomnom .prototype {
+  
+    top: 4510px;
+}
+.nomnom .usability-test {
+    top: 4600px;
+    height: 180px;
+}
+.nomnom .lessons {
+    top: 4780px;
+}
+.nomnom .lets-talk {
+
+    top: 4975px;
+}
+.nomnom .footer {
+
+    top: 5090px;
+}
 }   
 @media all and(min-width: 768px),
 
 only screen and (        -webkit-min-device-pixel-ratio: 2)      and (min-width: 768px),
 only screen and (                min-resolution: 192dpi) and (min-width: 768px),
 only screen and (                min-resolution: 2dppx)  and (min-width: 768px){
+   .nomnom .nomnom-image{
+    height: 240px;
+   }
+   .nomnom .description {
+    height: 240px;
+}
+.nomnom .comp-analysis .para-2 {
+    margin-top: 140px;
+}
+
+.nomnom .comp-analysis .icons .comp-icon{
+  margin-left: 110px;
+}
+.nomnom .interviews .interview-image>img {
+    height: 200px;
+    
+}
+.nomnom .comp-analysis .comp-image>img {
+    height: 250px;
+    width: auto;
+}
+.nomnom .comp-analysis {
+    height: 530px;
+}
+.nomnom .interviews .int-para{
+  margin-top: 80px;
+}
+.nomnom .interviews {
+    height: 900px;
+}
+.nomnom .persona .image>img {
+    height: 400px;
+    width: auto;
+}
+.nomnom .persona {
+    height: 530px;
+}
+.nomnom .identity-and-branding .image>img {
+    height: 400px;
+    width: auto;
+  }
+  .nomnom .identity-and-branding {
+    height: 570px;
+}
+.nomnom .user-flows .uf1>img {
+    height: 80px;
    
+}
+.nomnom .user-flows .para2{
+  margin-top: 30px;
+}
+.nomnom .wireframes {
+    top: 4725px;
+    height: 1060px;
+}
+.nomnom .wireframes .wf{
+
+  height: 300px;
+  width: auto;
+}
+.nomnom .wireframes .wf>img{
+  height: 300px;
+  width: auto;
+  margin-left: 60px;
+  margin-top: 10px;
+}
+.nomnom .wireframes .wf5>img {
+    height: 300px;
+    width: auto;
+}
+.nomnom .user-flows .uf2>img {
+    height: 500px;
+    width: auto;
+}
+.nomnom .user-flows .para3{
+  margin-top: 370px;
+}
+.nomnom .user-flows .uf3>img {
+    height: 500px;
+  
+}
+.nomnom .usability-test {
+    top: 5905px;
+    height: 200px;
+}
+.nomnom .prototype {
+    top: 5785px;
+}
+.nomnom .lessons {
+    top: 6105 px;
+}
+.nomnom .user-flows {
+    height: 1380px;
+}
+.nomnom .lets-talk {
+    top: 6055px;
+}
+.nomnom .footer {
+    top: 6190px;
+}
 }
 
 @media all and(min-width: 1024px),
@@ -160,6 +306,10 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 1024px)
   
   margin-top: 0px;
 }
+.nomnom-image{
+  padding-top: 20px;
+  height: 390px;
+}
 }
 
 @media all and(min-width: 1440px),
@@ -253,5 +403,9 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 1440px)
 .nomnom .user-flows .uf3>img {
     height:470px;
   
+}
+.nomnom-image{
+  padding-top: 20px;
+  height: 390px;
 }
 }
