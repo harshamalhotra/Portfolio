@@ -86,7 +86,7 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 768px){
 }
 .nomnom .comp-analysis .comp-image>img {
     height: 250px;
-    width: auto;
+    
 }
 .nomnom .comp-analysis {
     height: 530px;
@@ -125,21 +125,21 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 768px){
 .nomnom .wireframes .wf{
 
   height: 300px;
-  width: auto;
+
 }
 .nomnom .wireframes .wf>img{
   height: 300px;
-  width: auto;
+  
   margin-left: 60px;
   margin-top: 10px;
 }
 .nomnom .wireframes .wf5>img {
     height: 300px;
-    width: auto;
+    
 }
 .nomnom .user-flows .uf2>img {
     height: 500px;
-    width: auto;
+  
 }
 .nomnom .user-flows .para3{
   margin-top: 370px;
@@ -278,7 +278,7 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 1024px)
   top:7810px;
 }
 .nomnom .footer{
-  position: absolute;
+  
   top:7930px;
 }
 .nomnom .interviews .interview-image>img {
@@ -294,7 +294,7 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 1024px)
 }
 .nomnom .user-flows .uf3>img {
     height:550px;
-    width: auto;
+   
 }
 .user-flows {
     height: 1590px;

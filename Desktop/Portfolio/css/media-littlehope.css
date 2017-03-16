@@ -1,0 +1,237 @@
+
+@media all and(min-width: 375px),
+
+only screen and (        -webkit-min-device-pixel-ratio: 2)      and (min-width: 375px),
+only screen and (                min-resolution: 192dpi) and (min-width: 375px),
+only screen and (                min-resolution: 2dppx)  and (min-width: 375px){
+   
+  
+}
+
+
+@media all and(min-width: 425px),
+
+only screen and (        -webkit-min-device-pixel-ratio: 2)      and (min-width: 425px),
+only screen and (                min-resolution: 192dpi) and (min-width: 425px),
+only screen and (                min-resolution: 2dppx)  and (min-width: 425px){
+
+}
+ 
+@media all and(min-width: 768px),
+
+only screen and (        -webkit-min-device-pixel-ratio: 2)      and (min-width: 768px),
+only screen and (                min-resolution: 192dpi) and (min-width: 768px),
+only screen and (                min-resolution: 2dppx)  and (min-width: 768px){
+
+}
+   
+
+@media all and(min-width: 1024px),
+
+only screen and (        -webkit-min-device-pixel-ratio: 2) and (min-width: 1024px),
+only screen and (                min-resolution: 192dpi) and (min-width: 1024px),
+only screen and (                min-resolution: 2dppx)  and (min-width: 1024px){
+.littlehope .description{
+  height: 220px;
+
+}
+.littlehope .scope {
+    height: 270px;
+}
+.littlehope .comp-analysis .comp-icon {
+   margin-left: 25px;
+}
+
+.littlehope .comp-analysis .comp-image>img{
+  margin-top: 30px;
+  
+  width: 600px;
+}
+.littlehope .comp-analysis .para-2{
+  margin-top: 60px;
+}
+.littlehope .comp-analysis {
+    width: 100%;
+    height: 1220px;
+    padding-top: 10px;
+}
+.littlehope .research {
+    margin-top: 0px;
+    height: 1240px;
+    padding-top: 10px;
+}
+.littlehope .res-para{
+  top:-40px;
+
+}
+.littlehope .interviews{
+  height: 320px;
+}
+.littlehope .persona{
+  height: 800px;
+}
+.littlehope .persona .persona-image>img{
+  width: 600px;
+}
+.littlehope .identity-and-branding {
+    height: 840px;
+    
+}
+.littlehope .identity-and-branding .desc-title{
+  margin-top:30px;
+}
+.littlehope .user-flows {
+    height: 1940px;
+  
+}
+
+.littlehope .user-flows .para2{
+  top:-50px;
+}
+.littlehope .user-flows .para3{
+  top:5930px;
+}
+.littlehope .user-flows .uf>img {
+    width: 600px;
+}
+.littlehope .user-flows .para4{
+  top:6270px;
+}
+.littlehope .user-flows .para5{
+  top:6560px;
+  }
+.littlehope .user-flows .para6{
+  top:6920px;
+  }
+  .littlehope .user-flows .para7{
+  top:7220px;
+  }
+
+  .littlehope .wireframes{
+    top: 7365px;
+    height: 5880px;
+  }
+   .littlehope .wireframes .wf-image>img{
+   width: 600px;
+  }
+  .littlehope .wireframes .para2{
+   top: 340px;
+  }
+   .littlehope .wireframes .wf2{
+    top: 350px;
+  }
+  .littlehope .wireframes .para3{
+   top: 620px;
+  }
+  .littlehope .wireframes .wf3{
+    top: 640px;
+    left: 0px;
+  }
+  .littlehope .wireframes .para4{
+   top: 620px;
+  }
+  .littlehope .wireframes .wf4{
+    top: 630px;
+
+  }
+  .littlehope .wireframes .para5{
+   top: 730px;
+  }
+   .littlehope .wireframes .wf5{
+    top: 750px;
+
+  }
+  .littlehope .wireframes .para6{
+   top: 1830px;
+  }
+  .littlehope .wireframes .wf6{
+    top: 1840px;
+
+  }
+  .littlehope .wireframes .para7{
+   top: 2200px;
+  }
+.littlehope .prototype {
+    top: 13225px;
+}
+.littlehope .usability-test{
+  top:13325px;
+}
+
+}
+.littlehope .lessons{
+
+    top: 13470px;
+
+    height: 190px;
+}
+.littlehope .lets-talk{
+  top:6290px;
+}
+.littlehope .footer{
+  position: absolute;
+  top: 13770px;
+}
+
+
+}
+
+
+
+@media all and(min-width: 1440px),
+
+only screen and (        -webkit-min-device-pixel-ratio: 2) and (min-width: 1440px),
+only screen and (                min-resolution: 192dpi) and (min-width: 1440px),
+only screen and (                min-resolution: 2dppx)  and (min-width: 1440px){
+.littlehope .comp-analysis .comp-image>img {
+   
+    width: 800px;
+}
+.littlehope .comp-analysis .para-2 {
+    margin-top: 200px;
+}
+.littlehope .comp-analysis {
+
+    height: 1200px;
+}
+.littlehope .research {
+
+    height: 1090px;
+}
+.littlehope .interviews {
+    height: 260px;
+}
+.littlehope .persona .persona-image>img {
+    width: 600px;
+}
+.littlehope .user-flows .para3 {
+    top: 5760px;
+}
+.littlehope .identity-and-branding{
+height: 780px;
+}
+.littlehope .identity-and-branding .persona-image>img{
+margin-top: 10px;
+width: 800px;
+}
+.littlehope .user-flows .uf>img {
+    width: 800px;
+}
+.littlehope .user-flows{
+  height: 2300px;
+}
+.littlehope .user-flows .para2 {
+    top: 70px;
+}
+.littlehope .wireframes .para5{
+   top: 8300px;
+  }
+
+  .littlehope .wireframes .para7{
+   top: 2900px;
+  }
+   .littlehope .wireframes .para4{
+   top: 6190px;
+  }
+}
+

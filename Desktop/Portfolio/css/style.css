@@ -632,3 +632,43 @@ width:auto;
   padding-top: 20px;
   height: 190px;
 }
+.nomnom .comp-analysis .comp-image>img {
+    
+    width: auto;
+}
+.nomnom .wireframes .wf{
+
+
+  width: auto;
+}
+.littlehope .user-flows .para3{
+  position: absolute;
+  width: 100%;
+}
+.littlehope .user-flows .para3 .desc-content{
+  text-align: center;
+}
+.littlehope .user-flows .para4{
+  position: absolute;
+  width: 100%;
+}
+.littlehope .user-flows .para4 .desc-content{
+  text-align: center;
+}
+.littlehope .user-flows .uf>img{
+  height: auto;
+
+}
+.littlehope .comp-analysis .comp-image>img{
+  height: auto;
+
+}
+.littlehope .wireframes .wf-image>img{
+  height: auto;
+}
+.littlehope .persona .persona-image>img{
+  height: auto;
+}
+.littlehope .identity-and-branding .persona-image>img{
+  height: auto;
+}
