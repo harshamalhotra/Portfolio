@@ -641,9 +641,21 @@ width:auto;
 
   width: auto;
 }
+.littlehope .nomnom-image {
+    padding-top: 20px;
+    height: 210px;
+}
+.littlehope .description{
+  height: 270px;
+}
+.littlehope .comp-analysis .comp-icon>img{
+  height: 10px;
+  width: auto;
+}
 .littlehope .user-flows .para3{
   position: absolute;
   width: 100%;
+  top: 5080px;
 }
 .littlehope .user-flows .para3 .desc-content{
   text-align: center;
@@ -651,6 +663,16 @@ width:auto;
 .littlehope .user-flows .para4{
   position: absolute;
   width: 100%;
+  top:5170px;
+}
+.littlehope .user-flows .para5{
+  top:5260px;
+}
+.littlehope .user-flows .para6{
+  top:5340px;
+}
+.littlehope .user-flows .para7{
+  top:5410px;
 }
 .littlehope .user-flows .para4 .desc-content{
   text-align: center;
@@ -659,16 +681,129 @@ width:auto;
   height: auto;
 
 }
+.littlehope .user-flows {
+
+    height: 600px;
+
+}
+.littlehope .comp-analysis {
+  
+    height: 1220px;
+  
+}
 .littlehope .comp-analysis .comp-image>img{
   height: auto;
+  width: 280px;
 
+}
+.littlehope .comp-analysis .para-2{
+  margin-top: 40px;
+}
+.littlehope .research{
+  height: 1380px;
+}
+.littlehope .research .survey-image>img{
+  height: auto;
+  width: 280px;
 }
 .littlehope .wireframes .wf-image>img{
   height: auto;
 }
 .littlehope .persona .persona-image>img{
   height: auto;
+  width: 280px;
 }
 .littlehope .identity-and-branding .persona-image>img{
   height: auto;
+  width: 280px;
 }
+.littlehope .interviews {
+    
+    height: 470px;
+
+}
+.littlehope .persona{
+  height: 490px;
+}
+.littlehope .wireframes{
+  top:5465px;
+  height: 3440px;
+}
+.littlehope .prototype{
+  top:8900px;
+}
+.littlehope .usability-test {
+  top: 8990px;
+}
+.littlehope .identity-and-branding {
+    top: 21000px;
+    width: 100%;
+    height: 410px;
+}
+.littlehope .lessons{
+  top: 9180px;
+}
+.littlehope .user-flows .uf1{
+  width: 100%;
+  height: auto;
+}
+.littlehope .lets-talk{
+  top:3980px;
+}
+.littlehope .footer{
+  position: absolute;
+  top: 9560px;
+}
+ .littlehope .wireframes .wf-image>img {
+    height: auto;
+    width: 280px;
+}
+.littlehope .wireframes .wf1 {
+    visibility: visible;
+    top: 200px;
+    width: 100%;
+    height: auto;
+    position: absolute;
+}
+.littlehope .wireframes .wf2 {
+    
+    top: -30px;
+}
+.littlehope .wireframes .wf3 {
+    top: 90px;
+    left: 0px;
+    height: 350px;
+}
+ .littlehope .wireframes .para2{
+   top: 0px;
+  }
+  .littlehope .wireframes .para3{
+   top: 120px;
+  }
+  .littlehope .wireframes .para4{
+   top: -80px;
+  }
+  .littlehope .wireframes .wf4 {
+    
+    top: -110px;
+}
+.littlehope .wireframes .para5{
+   top: -40px;
+  }
+   .littlehope .wireframes .wf5 {
+    width: 280px;
+    height: 680px;
+    top: -60px;
+}
+.littlehope .wireframes .para6{
+   top: -30px;
+  }
+   .littlehope .wireframes .wf6 {
+    width: 100%;
+    height: 345px;
+    top: -50px;
+}
+
+  .littlehope .wireframes .para7{
+   top: -20px;
+  }
