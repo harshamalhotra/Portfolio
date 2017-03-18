@@ -100,7 +100,7 @@ letter-spacing: 0.41px;
   position: relative;
   width:100%;
   height: 360px;
-  margin: 0px 0px;
+  margin: 20px 0px;
   
  /* background-color: silver;*/
   font-family: cabin;
@@ -335,8 +335,8 @@ font-size: 11px;
 color: #000000;
 line-height: 25px;
 }
-.white-bg{background-color: red;
-  /*background-color: #FFFFFF;*/
+.white-bg{
+  background-color: #FFFFFF;
 }
 .grey-bg{
   background-color: #F2F2F2;
@@ -541,7 +541,7 @@ width:auto;
     width: auto;
 }
 .nomnom .wireframes{
-  top:4190px;
+  top:4250px;
   height: 1000px;
 }
 .nomnom .wireframes .wf>img{
@@ -614,15 +614,15 @@ width:auto;
 }
 .nomnom .prototype{
   position: absolute;
-  top:5190px;
+  top:5250px;
 }
 .nomnom .usability-test {
-    top: 5280px;
+    top: 5340px;
     height: 220px;
 }
 .nomnom .lessons {
   
-    top: 5500px;
+    top: 5560px;
 
 }
 .nomnom .wireframes .wf5{

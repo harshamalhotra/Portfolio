@@ -4,8 +4,49 @@
 only screen and (        -webkit-min-device-pixel-ratio: 2)      and (min-width: 375px),
 only screen and (                min-resolution: 192dpi) and (min-width: 375px),
 only screen and (                min-resolution: 2dppx)  and (min-width: 375px){
-   
+   .nomnom .description {
+    height: 330px;
   
+}
+.nomnom .scope {
+    height: 220px;
+}
+.nomnom .comp-analysis {
+    height: 520px;
+}
+.nomnom .interviews {
+    height: 1080px;
+}
+.nomnom .persona {
+    height: 280px;
+}
+.nomnom .identity-and-branding {
+    height: 380px;
+}
+.nomnom .user-flows {
+  height: 730px;
+}  
+.nomnom .wireframes {
+    top: 3860px;
+    height: 920px;
+}
+.nomnom .prototype{
+  top: 4780px;
+}
+.nomnom .usability-test {
+    top: 4870px;
+    height: 210px;
+}
+.nomnom .lessons {
+    top: 5080px;
+}
+.nomnom .lets-talk {
+
+    top: 5300px;
+}
+.nomnom .footer {
+        top: 5400px;
+}
 }
 
 
@@ -156,16 +197,16 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 768px){
     top: 5785px;
 }
 .nomnom .lessons {
-    top: 6105 px;
+    top: 6105px;
 }
 .nomnom .user-flows {
     height: 1380px;
 }
 .nomnom .lets-talk {
-    top: 6055px;
+    top: 6175px;
 }
 .nomnom .footer {
-    top: 6190px;
+    top: 6320px;
 }
 }
 
@@ -174,6 +215,10 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 768px){
 only screen and (        -webkit-min-device-pixel-ratio: 2) and (min-width: 1024px),
 only screen and (                min-resolution: 192dpi) and (min-width: 1024px),
 only screen and (                min-resolution: 2dppx)  and (min-width: 1024px){
+.nomnom .nomnom-image {
+    height: 400px;
+    padding-top: 20px;
+}
 .nomnom .description{
 
   height: 320px;
@@ -181,6 +226,9 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 1024px)
 .nomnom .image {
 
     height: 300px;
+}
+.nomnom .scope {
+    height: 275px;
 }
 .nomnom .comp-analysis .icons{
   top: 400px;
@@ -200,20 +248,24 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 1024px)
   margin-top: 40px;
     margin-bottom: 50px;
 } 
-.nomnom .comp-image>img{
-  height: 400px;
-  margin-bottom: 0px;
+.nomnom .comp-analysis .comp-image>img {
+    height: 400px;
+    margin-bottom: 0px;
+}
 
-} 
 .nomnom .comp-analysis{
   height: 750px;
 }  
 .nomnom .interviews{
-  height: 1120px;
+  height: 1200px;
 }
-.nomnom .persona-image>img{
-  height: 600px;
+
+.nomnom .persona .image>img {
+    height: 600px;
+
 }
+
+
 .nomnom .persona{
   height: 740px;
 }
@@ -221,6 +273,10 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 1024px)
 .nomnom .identity-and-branding {
     height: 800px;
   
+}
+.nomnom .identity-and-branding .image>img {
+    height: 600px;
+    
 }
 .nomnom .user-flows .uf1>img{
   height: 150px;
@@ -235,7 +291,7 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 1024px)
 
 }
 .nomnom .user-flows .uf2>img{
-  height: 550px;
+  height: 900px;
  
 }
 
@@ -282,7 +338,7 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 1024px)
   top:7930px;
 }
 .nomnom .interviews .interview-image>img {
-    height: 280px;
+    height: 360px;
   
 }
 .nomnom .comp-analysis .para-2{
@@ -306,10 +362,7 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 1024px)
   
   margin-top: 0px;
 }
-.nomnom-image{
-  padding-top: 20px;
-  height: 390px;
-}
+
 }
 
 @media all and(min-width: 1440px),
@@ -339,7 +392,7 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 1440px)
 
 }
 .nomnom .interviews{
-  height: 1080px;
+  height: 1140px;
 }
 .nomnom .identity-and-branding {
     height: 770px;
@@ -354,6 +407,7 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 1440px)
   top: 5960px;
   height: 1340px;
 }
+  
 .nomnom .wireframes .wf-para{
   top:80px;
 }
@@ -387,7 +441,7 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 1440px)
   top:7850px;
 }
 .nomnom .interviews .interview-image>img {
-    height: 350px;
+    height: 450px;
   
 }
 .nomnom .image {
